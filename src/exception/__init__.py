@@ -8,6 +8,7 @@ def error_message_detail(error: Exception, error_detail: sys) -> str:
     :param error: The exception that occurred.
     :param error_detail: The sys module to access traceback details.
     :return: A formatted error message string.
+    
     """
     # Extract traceback details (exception information)
     _, _, exc_tb = error_detail.exc_info()
